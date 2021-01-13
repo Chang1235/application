@@ -1,0 +1,260 @@
+:root {
+  /* color */
+  --color--naming: #b4c3ff;
+  /* size */
+  --size--border: 1px solid black;
+  --size--pading: 5px;
+}
+
+body {
+  width: 100%;
+}
+
+#bind {
+  margin: 0 auto;
+  width: 600px;
+  height: 100%;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  margin-right: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.personalinfo {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+}
+.nameinfo {
+  width: 50px;
+  text-align: center;
+  border: var(--size--border);
+  padding: 5px;
+  background-color: var(--color--naming);
+}
+
+.namewrite {
+  border: var(--size--border);
+  border-left: 0;
+  border-right: 0;
+  padding: 5px;
+  width: 180px;
+  text-align: center;
+}
+
+.engnameinfo {
+  width: 50px;
+  text-align: center;
+  border: var(--size--border);
+  padding: 5px;
+  background-color: var(--color--naming);
+}
+
+.engnamewrite {
+  border: var(--size--border);
+  border-left: 0;
+  padding: 5px;
+  width: 180px;
+  text-align: center;
+}
+/* adress */
+.adress {
+  display: flex;
+  border: var(--size--border);
+  border-top: 0;
+}
+
+.koradress {
+  padding: 5px;
+  width: 50px;
+  text-align: center;
+  background-color: var(--color--naming);
+  border-right: var(--size--border);
+  text-align: center;
+}
+
+.location {
+  width: 180px;
+  padding: var(--size--pading);
+  text-align: center;
+}
+/* e-mail */
+.e-mail {
+  display: flex;
+  border: var(--size--border);
+  border-top: 0;
+}
+
+.mail {
+  width: 50px;
+  text-align: center;
+  background-color: var(--color--naming);
+  border-right: var(--size--border);
+  padding: 5px;
+  text-align: center;
+}
+
+.mail-id {
+  width: 180px;
+  padding: var(--size--pading);
+  text-align: center;
+}
+/*number  */
+.number {
+  display: flex;
+  border: var(--size--border);
+  border-top: 0;
+}
+.self {
+  width: 50px;
+  text-align: center;
+  background-color: var(--color--naming);
+  border-right: var(--size--border);
+  padding: 5px;
+  text-align: center;
+}
+
+.self-number {
+  padding: 5px;
+  width: 180px;
+  text-align: center;
+}
+
+.home {
+  width: 50px;
+  text-align: center;
+  background-color: var(--color--naming);
+  border-right: var(--size--border);
+  border-left: var(--size--border);
+  padding: 5px;
+  text-align: center;
+}
+
+.home-number {
+  padding: 5px;
+  width: 180px;
+  text-align: center;
+}
+
+.body {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bodylist {
+  margin-right: 30px;
+}
+
+.education {
+  display: flex;
+  border-top: var(--size--border);
+  border-bottom: var(--size--border);
+  margin-right: 20px;
+}
+
+.career {
+  width: 300px;
+  display: flex;
+  border-top: var(--size--border);
+  border-bottom: var(--size--border);
+  margin-left: 20px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  border-top: var(--size--border);
+  border-bottom: var(--size--border);
+  text-align: center;
+}
+
+.kind {
+  border-bottom: var(--size--border);
+}
+
+.skillimg {
+  width: 150px;
+  height: 100px;
+}
+
+.Front-end {
+  margin-left: 20px;
+  border-left: var(--size--border);
+  padding: var(--size--pading);
+}
+
+.Back-end {
+  margin-left: 20px;
+  padding: var(--size--pading);
+}
+
+.Extra-skill {
+  margin-left: 20px;
+  padding: var(--size--pading);
+}
+
+.bottom {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.language {
+  border-top: var(--size--border);
+  border-bottom: var(--size--border);
+  padding: var(--size--pading);
+}
+
+.lang {
+  margin: 0;
+}
+
+table {
+  margin: 10px;
+  margin-left: 0vh;
+}
+
+td {
+  border-bottom: var(--size--border);
+  border-right: var(--size--border);
+}
+
+td.score {
+  border-right: 0;
+}
+
+.contact {
+  border-top: var(--size--border);
+  border-bottom: var(--size--border);
+}
+
+ul {
+  padding: 0;
+}
+
+.contact li {
+  list-style-type: none;
+}
+
+.li-img {
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+}
